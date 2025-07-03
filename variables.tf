@@ -1,23 +1,3 @@
-variable "subscription_id" {
-  description = "The Azure subscription ID where resources will be created."
-  type        = string
-}
-
-variable "tenant_id" {
-  description = "The Azure tenant ID for authentication."
-  type        = string
-}
-
-variable "client_id" {
-  description = "Service Principal Client ID"
-  type        = string
-}
-
-variable "client_secret" {
-  description = "Service Principal Client Secret"
-  type        = string
-}
-
 variable "resource_group_name" {
   description = "The name of the resource group to create."
   type        = string
